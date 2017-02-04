@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E1CB4D21651ED2B3509EA63 /* libPods-WaterfallImages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2233EB0126B137F798E20B10 /* libPods-WaterfallImages.a */; };
+		530205F21E40FE7C004DB71D /* FullSizeImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 530205F11E40FE7C004DB71D /* FullSizeImageViewController.m */; };
+		533CBEA11E39CBCD00017AB3 /* ApiRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEA01E39CBCD00017AB3 /* ApiRequest.m */; };
+		533CBEA51E39D1BE00017AB3 /* NSString+HttpUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEA41E39D1BE00017AB3 /* NSString+HttpUtils.m */; };
+		533CBEA81E39D98600017AB3 /* NSDictionary+HttpHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEA71E39D98600017AB3 /* NSDictionary+HttpHelper.m */; };
+		533CBEAD1E3A033C00017AB3 /* PixSearchedPhotos.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEAC1E3A033C00017AB3 /* PixSearchedPhotos.m */; };
+		533CBEB01E3A08A600017AB3 /* PixPhoto.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEAF1E3A08A600017AB3 /* PixPhoto.m */; };
+		533CBEB41E3A14C500017AB3 /* WaterfallImagesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEB31E3A14C500017AB3 /* WaterfallImagesViewController.m */; };
+		533CBEB81E3A175C00017AB3 /* SearchedPhotosManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEB71E3A175C00017AB3 /* SearchedPhotosManager.m */; };
+		533CBEBB1E3A1ABC00017AB3 /* PhotoCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 533CBEBA1E3A1ABC00017AB3 /* PhotoCollectionViewCell.m */; };
+		5340B9191E3A5905005A5AF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5340B9181E3A5905005A5AF2 /* Assets.xcassets */; };
+		5340B91C1E3A5F08005A5AF2 /* AppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340B91B1E3A5F08005A5AF2 /* AppConstants.m */; };
+		5340B91F1E3A6235005A5AF2 /* SettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340B91E1E3A6235005A5AF2 /* SettingsTableViewController.m */; };
+		5340B9221E3A633D005A5AF2 /* CollumnCountSettingsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5340B9211E3A633D005A5AF2 /* CollumnCountSettingsCell.m */; };
+		53F8C65E1E39C43300434B94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8C65D1E39C43300434B94 /* main.m */; };
+		53F8C6611E39C43300434B94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 53F8C6601E39C43300434B94 /* AppDelegate.m */; };
+		53F8C6671E39C43300434B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F8C6651E39C43300434B94 /* Main.storyboard */; };
+		53F8C66C1E39C43300434B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 53F8C66A1E39C43300434B94 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2233EB0126B137F798E20B10 /* libPods-WaterfallImages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WaterfallImages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4842A9649B49AA7D8637AFA1 /* Pods-WaterfallImages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallImages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallImages/Pods-WaterfallImages.debug.xcconfig"; sourceTree = "<group>"; };
+		530205F01E40FE7C004DB71D /* FullSizeImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullSizeImageViewController.h; sourceTree = "<group>"; };
+		530205F11E40FE7C004DB71D /* FullSizeImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullSizeImageViewController.m; sourceTree = "<group>"; };
+		533CBE9F1E39CBCD00017AB3 /* ApiRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApiRequest.h; sourceTree = "<group>"; };
+		533CBEA01E39CBCD00017AB3 /* ApiRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApiRequest.m; sourceTree = "<group>"; };
+		533CBEA31E39D1BE00017AB3 /* NSString+HttpUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HttpUtils.h"; sourceTree = "<group>"; };
+		533CBEA41E39D1BE00017AB3 /* NSString+HttpUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HttpUtils.m"; sourceTree = "<group>"; };
+		533CBEA61E39D98600017AB3 /* NSDictionary+HttpHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+HttpHelper.h"; sourceTree = "<group>"; };
+		533CBEA71E39D98600017AB3 /* NSDictionary+HttpHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+HttpHelper.m"; sourceTree = "<group>"; };
+		533CBEAB1E3A033C00017AB3 /* PixSearchedPhotos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixSearchedPhotos.h; sourceTree = "<group>"; };
+		533CBEAC1E3A033C00017AB3 /* PixSearchedPhotos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixSearchedPhotos.m; sourceTree = "<group>"; };
+		533CBEAE1E3A08A600017AB3 /* PixPhoto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PixPhoto.h; sourceTree = "<group>"; };
+		533CBEAF1E3A08A600017AB3 /* PixPhoto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PixPhoto.m; sourceTree = "<group>"; };
+		533CBEB21E3A14C500017AB3 /* WaterfallImagesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallImagesViewController.h; sourceTree = "<group>"; };
+		533CBEB31E3A14C500017AB3 /* WaterfallImagesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallImagesViewController.m; sourceTree = "<group>"; };
+		533CBEB61E3A175C00017AB3 /* SearchedPhotosManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedPhotosManager.h; sourceTree = "<group>"; };
+		533CBEB71E3A175C00017AB3 /* SearchedPhotosManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedPhotosManager.m; sourceTree = "<group>"; };
+		533CBEB91E3A1ABC00017AB3 /* PhotoCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoCollectionViewCell.h; sourceTree = "<group>"; };
+		533CBEBA1E3A1ABC00017AB3 /* PhotoCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoCollectionViewCell.m; sourceTree = "<group>"; };
+		5340B9181E3A5905005A5AF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5340B91A1E3A5F08005A5AF2 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		5340B91B1E3A5F08005A5AF2 /* AppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConstants.m; sourceTree = "<group>"; };
+		5340B91D1E3A6235005A5AF2 /* SettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewController.h; sourceTree = "<group>"; };
+		5340B91E1E3A6235005A5AF2 /* SettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewController.m; sourceTree = "<group>"; };
+		5340B9201E3A633D005A5AF2 /* CollumnCountSettingsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollumnCountSettingsCell.h; sourceTree = "<group>"; };
+		5340B9211E3A633D005A5AF2 /* CollumnCountSettingsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollumnCountSettingsCell.m; sourceTree = "<group>"; };
+		53F8C6591E39C43300434B94 /* WaterfallImages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterfallImages.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		53F8C65D1E39C43300434B94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		53F8C65F1E39C43300434B94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		53F8C6601E39C43300434B94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		53F8C6661E39C43300434B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		53F8C66B1E39C43300434B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		53F8C66D1E39C43300434B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FAA3128B464D92421959A38 /* Pods-WaterfallImages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterfallImages.release.xcconfig"; path = "Pods/Target Support Files/Pods-WaterfallImages/Pods-WaterfallImages.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		53F8C6561E39C43300434B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E1CB4D21651ED2B3509EA63 /* libPods-WaterfallImages.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F826D1B6B3C6BA884472199 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2233EB0126B137F798E20B10 /* libPods-WaterfallImages.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		533CBEA91E3A02EA00017AB3 /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				533CBE9F1E39CBCD00017AB3 /* ApiRequest.h */,
+				533CBEA01E39CBCD00017AB3 /* ApiRequest.m */,
+			);
+			name = Api;
+			sourceTree = "<group>";
+		};
+		533CBEAA1E3A02F700017AB3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				533CBEAB1E3A033C00017AB3 /* PixSearchedPhotos.h */,
+				533CBEAC1E3A033C00017AB3 /* PixSearchedPhotos.m */,
+				533CBEAE1E3A08A600017AB3 /* PixPhoto.h */,
+				533CBEAF1E3A08A600017AB3 /* PixPhoto.m */,
+				5340B91A1E3A5F08005A5AF2 /* AppConstants.h */,
+				5340B91B1E3A5F08005A5AF2 /* AppConstants.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		533CBEB11E3A124900017AB3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				533CBEA31E39D1BE00017AB3 /* NSString+HttpUtils.h */,
+				533CBEA41E39D1BE00017AB3 /* NSString+HttpUtils.m */,
+				533CBEA61E39D98600017AB3 /* NSDictionary+HttpHelper.h */,
+				533CBEA71E39D98600017AB3 /* NSDictionary+HttpHelper.m */,
+			);
+			name = Helpers;
+			sourceTree = "<group>";
+		};
+		533CBEB51E3A170700017AB3 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				533CBEB61E3A175C00017AB3 /* SearchedPhotosManager.h */,
+				533CBEB71E3A175C00017AB3 /* SearchedPhotosManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		533CBEBC1E3A1F3200017AB3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				530205F01E40FE7C004DB71D /* FullSizeImageViewController.h */,
+				530205F11E40FE7C004DB71D /* FullSizeImageViewController.m */,
+				533CBEB21E3A14C500017AB3 /* WaterfallImagesViewController.h */,
+				533CBEB31E3A14C500017AB3 /* WaterfallImagesViewController.m */,
+				5340B91D1E3A6235005A5AF2 /* SettingsTableViewController.h */,
+				5340B91E1E3A6235005A5AF2 /* SettingsTableViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		533CBEBD1E3A1F4300017AB3 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				533CBEB91E3A1ABC00017AB3 /* PhotoCollectionViewCell.h */,
+				533CBEBA1E3A1ABC00017AB3 /* PhotoCollectionViewCell.m */,
+				5340B9201E3A633D005A5AF2 /* CollumnCountSettingsCell.h */,
+				5340B9211E3A633D005A5AF2 /* CollumnCountSettingsCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		53F8C6501E39C43200434B94 = {
+			isa = PBXGroup;
+			children = (
+				53F8C65B1E39C43300434B94 /* WaterfallImages */,
+				53F8C65A1E39C43300434B94 /* Products */,
+				A669DBD5963873C225BA6070 /* Pods */,
+				3F826D1B6B3C6BA884472199 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		53F8C65A1E39C43300434B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				53F8C6591E39C43300434B94 /* WaterfallImages.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53F8C65B1E39C43300434B94 /* WaterfallImages */ = {
+			isa = PBXGroup;
+			children = (
+				533CBEA91E3A02EA00017AB3 /* Api */,
+				533CBEB51E3A170700017AB3 /* Managers */,
+				533CBEAA1E3A02F700017AB3 /* Model */,
+				533CBEBC1E3A1F3200017AB3 /* Controllers */,
+				533CBEBD1E3A1F4300017AB3 /* Cells */,
+				533CBEB11E3A124900017AB3 /* Helpers */,
+				53F8C6651E39C43300434B94 /* Main.storyboard */,
+				53F8C65C1E39C43300434B94 /* Supporting Files */,
+			);
+			path = WaterfallImages;
+			sourceTree = "<group>";
+		};
+		53F8C65C1E39C43300434B94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5340B9181E3A5905005A5AF2 /* Assets.xcassets */,
+				53F8C65F1E39C43300434B94 /* AppDelegate.h */,
+				53F8C6601E39C43300434B94 /* AppDelegate.m */,
+				53F8C66A1E39C43300434B94 /* LaunchScreen.storyboard */,
+				53F8C66D1E39C43300434B94 /* Info.plist */,
+				53F8C65D1E39C43300434B94 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A669DBD5963873C225BA6070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4842A9649B49AA7D8637AFA1 /* Pods-WaterfallImages.debug.xcconfig */,
+				5FAA3128B464D92421959A38 /* Pods-WaterfallImages.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		53F8C6581E39C43300434B94 /* WaterfallImages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53F8C6701E39C43300434B94 /* Build configuration list for PBXNativeTarget "WaterfallImages" */;
+			buildPhases = (
+				D819A9EF668DCC8B6A7633A6 /* [CP] Check Pods Manifest.lock */,
+				53F8C6551E39C43300434B94 /* Sources */,
+				53F8C6561E39C43300434B94 /* Frameworks */,
+				53F8C6571E39C43300434B94 /* Resources */,
+				B91E55B422FD1D46806449E7 /* [CP] Embed Pods Frameworks */,
+				FA775F1C93AB3B149C127D6F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterfallImages;
+			productName = WaterfallImages;
+			productReference = 53F8C6591E39C43300434B94 /* WaterfallImages.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		53F8C6511E39C43200434B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = llodi;
+				TargetAttributes = {
+					53F8C6581E39C43300434B94 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 8PLC6EGN2P;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 53F8C6541E39C43200434B94 /* Build configuration list for PBXProject "WaterfallImages" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 53F8C6501E39C43200434B94;
+			productRefGroup = 53F8C65A1E39C43300434B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				53F8C6581E39C43300434B94 /* WaterfallImages */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		53F8C6571E39C43300434B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53F8C66C1E39C43300434B94 /* LaunchScreen.storyboard in Resources */,
+				5340B9191E3A5905005A5AF2 /* Assets.xcassets in Resources */,
+				53F8C6671E39C43300434B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B91E55B422FD1D46806449E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallImages/Pods-WaterfallImages-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D819A9EF668DCC8B6A7633A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA775F1C93AB3B149C127D6F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WaterfallImages/Pods-WaterfallImages-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		53F8C6551E39C43300434B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				533CBEB01E3A08A600017AB3 /* PixPhoto.m in Sources */,
+				5340B9221E3A633D005A5AF2 /* CollumnCountSettingsCell.m in Sources */,
+				530205F21E40FE7C004DB71D /* FullSizeImageViewController.m in Sources */,
+				533CBEB81E3A175C00017AB3 /* SearchedPhotosManager.m in Sources */,
+				533CBEB41E3A14C500017AB3 /* WaterfallImagesViewController.m in Sources */,
+				533CBEAD1E3A033C00017AB3 /* PixSearchedPhotos.m in Sources */,
+				533CBEBB1E3A1ABC00017AB3 /* PhotoCollectionViewCell.m in Sources */,
+				533CBEA51E39D1BE00017AB3 /* NSString+HttpUtils.m in Sources */,
+				53F8C6611E39C43300434B94 /* AppDelegate.m in Sources */,
+				5340B91F1E3A6235005A5AF2 /* SettingsTableViewController.m in Sources */,
+				5340B91C1E3A5F08005A5AF2 /* AppConstants.m in Sources */,
+				53F8C65E1E39C43300434B94 /* main.m in Sources */,
+				533CBEA11E39CBCD00017AB3 /* ApiRequest.m in Sources */,
+				533CBEA81E39D98600017AB3 /* NSDictionary+HttpHelper.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		53F8C6651E39C43300434B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F8C6661E39C43300434B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		53F8C66A1E39C43300434B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				53F8C66B1E39C43300434B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		53F8C66E1E39C43300434B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		53F8C66F1E39C43300434B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		53F8C6711E39C43300434B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4842A9649B49AA7D8637AFA1 /* Pods-WaterfallImages.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8PLC6EGN2P;
+				INFOPLIST_FILE = WaterfallImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = llodi.test.WaterfallImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		53F8C6721E39C43300434B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FAA3128B464D92421959A38 /* Pods-WaterfallImages.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 8PLC6EGN2P;
+				INFOPLIST_FILE = WaterfallImages/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = llodi.test.WaterfallImages;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		53F8C6541E39C43200434B94 /* Build configuration list for PBXProject "WaterfallImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F8C66E1E39C43300434B94 /* Debug */,
+				53F8C66F1E39C43300434B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		53F8C6701E39C43300434B94 /* Build configuration list for PBXNativeTarget "WaterfallImages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53F8C6711E39C43300434B94 /* Debug */,
+				53F8C6721E39C43300434B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 53F8C6511E39C43200434B94 /* Project object */;
+}
